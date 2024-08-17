@@ -7,7 +7,7 @@ pipeline {
 		stage('build'){
 			steps {
 				echo 'Build project'
-				cargo build
+				sh 'cargo build'
 			}
 		}
 		stage('test'){
