@@ -7,7 +7,6 @@ pipeline {
 		stage('build'){
 			steps {
 				echo 'Build project'
-				pwd
 			}
 		}
 		stage('test'){
